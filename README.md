@@ -8,10 +8,10 @@ Bro script to dissect PCAP files in a way that facilitates active threat hunting
 
 Running the script using this command "bro -C -r trace.pcap dissector.bro" produces the following samples (different PCAPs) output
 
-
-	==========================================================
-	Bytes Downloaded > {3000000 Bytes / 3 MB}
-	==========================================================
+		
+==========================================================		
+Bytes Downloaded > {3000000 Bytes / 3 MB}		
+==========================================================
 Format: size (Descending), client IP, server IP, server port
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00001.pcap @ http://bit.ly/2mWr0kx
@@ -27,9 +27,9 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	3476280               192.168.24.100   <-------  192.168.202.110  : 4444/tcp
 
  
-	==========================================================
-	Bytes Uploaded > {1000000 Bytes / 1 MB}
-	==========================================================
+==========================================================
+Bytes Uploaded > {1000000 Bytes / 1 MB}
+==========================================================
 Format: size (Descending), client IP, server IP, server port
 </br>
 Results from: ismellpackets/Hidden.pcap @ http://bit.ly/2lSdxt8
