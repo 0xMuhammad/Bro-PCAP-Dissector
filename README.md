@@ -7,9 +7,9 @@ Bro script to dissect PCAP traces
 Bro script to dissect PCAP files in a way that facilitates active threat hunting by employing stack counting techniques. The script accepts PCAP fileas an input, scans the existence of major network protocols (i.e. HTTP,DNS,SMB,RDP,SSH,SSL,FTP and IRC) and produce sorted and counted lists of interesting fields/headers upon the existence of any of the previous protocols. 	
 
  
-###### 
+####
 Bytes Downloaded > {3000000 Bytes / 3 MB} 
-###### 
+#### 
 Format: size (Descending), client IP, server IP, server port
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00001.pcap @ http://bit.ly/2mWr0kx
