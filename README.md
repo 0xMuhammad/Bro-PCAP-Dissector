@@ -25,9 +25,7 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 
 
 
-==========================================================
-Bytes Uploaded > {1000000 Bytes / 1 MB}
-==========================================================
+## Bytes Uploaded > {1000000 Bytes / 1 MB}
 Format: size (Descending), client IP, server IP, server port
 </br>
 Results from: ismellpackets/Hidden.pcap @ http://bit.ly/2lSdxt8
@@ -45,9 +43,7 @@ Results from: ismellpackets/Hidden.pcap @ http://bit.ly/2lSdxt8
 
 
 
-==========================================================
-Conn Duration > {600 Second / 10 Minutes}
-==========================================================
+## Conn Duration > {600 Second / 10 Minutes}
 Format: session duration in seconds (Descending) , client IP, server IP, server port
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00001.pcap @ http://bit.ly/2maxlsD
@@ -69,9 +65,7 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	1435                  192.168.24.100   <------->     192.168.203.45   : 1025/tcp
 
  
-==========================================================
-Conn Listening_TCP_Ports_on_Private_IPs
-==========================================================
+## Conn Listening_TCP_Ports_on_Private_IPs
 Format: # of sessions (Ascending), tcp port, server IP, protocol
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00003.pcap @ http://bit.ly/2maxlsD
@@ -104,9 +98,7 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 
 
  
-==========================================================
-Conn Listening_TCP_Ports_on_Public_IPs
-==========================================================
+## Conn Listening_TCP_Ports_on_Public_IPs
 Format: # of sessions (Ascending), tcp port, protocol 
 </br>
 Results from: Malware Traffic Analysis / 2015-06-30-traffic-analysis-exercise.pcap @ http://bit.ly/2lSbbdH
@@ -118,9 +110,7 @@ Results from: Malware Traffic Analysis / 2015-06-30-traffic-analysis-exercise.pc
 
  
 
-==========================================================
-HTTP Odd_Hosts
-==========================================================
+## HTTP Odd_Hosts
 Format: # of occurence (Ascending), odd HTTP hosts
 </br>
 Results from: Malware Traffic Analysis / 2016-05-13-traffic-analysis-exercise.pcap @ http://bit.ly/2mvlhVA
@@ -142,9 +132,7 @@ Results from: Malware Traffic Analysis / 2016-05-13-traffic-analysis-exercise.pc
 
 
 
-==========================================================
-HTTP Referrers
-==========================================================
+## HTTP Referrers
 Format: # of occurence (Ascending), TLD part of HTTP referrer
 </br>
 Results from: Malware Traffic Analysis / 2016-03-30-traffic-analysis-exercise.pcap @ http://bit.ly/2mLFlDN
@@ -174,9 +162,7 @@ Results from: Malware Traffic Analysis / 2016-03-30-traffic-analysis-exercise.pc
 	83            webmail.roadrunner.com
 
  
-==========================================================
-HTTP User-Agents
-==========================================================
+## HTTP User-Agents
 Format: # of occuernce (Ascending), HTTP user-agent
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00010.pcap @ http://bit.ly/2maxlsD
@@ -218,9 +204,7 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	481029        DirBuster-0.12 (http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)
 
 
-==========================================================
-HTTP Methods
-==========================================================
+## HTTP Methods
 Format: # of occurence (Ascending), HTTP request method 
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00006.pcap @ http://bit.ly/2maxlsD
@@ -235,9 +219,8 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	16896         GET
 	42856         POST
 
-==========================================================
-HTTP Response_Codes
-==========================================================
+
+## HTTP Response_Codes
 Format: # of occurence (Ascending), HTTP response status code 
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00009.pcap @ http://bit.ly/2maxlsD
@@ -253,10 +236,10 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	21154         GET
 	392084        HEAD
  
-==========================================================
-HTTP Client_Requests
-==========================================================
- Format: # of HTTP requests (Ascending), client IP
+
+
+## HTTP Client_Requests
+Format: # of HTTP requests (Ascending), client IP
 </br>
 Results from: Malware Traffic Analysis /  2014-12-15-traffic-analysis-exercise.pcap @ http://bit.ly/2lNMcYi
  
@@ -265,9 +248,9 @@ Results from: Malware Traffic Analysis /  2014-12-15-traffic-analysis-exercise.p
 	59            192.168.204.139
 	122           192.168.204.146
 
-==========================================================
-DNS NXDOMAIN_Queries
-==========================================================
+
+
+## DNS NXDOMAIN_Queries
 Format: # of queries to NX domains (Ascending), client IP
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00003.pcap @ http://bit.ly/2maxlsD
@@ -291,9 +274,8 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	28            192.168.202.103
 	141           192.168.204.70
  
- ==========================================================
-DNS Client_Queries
-==========================================================
+
+## DNS Client_Queries
 Format: # of DNS queries (Ascending), client IP
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition /maccdc2012_00001.pcap @ http://bit.ly/2maxlsD
@@ -315,9 +297,9 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	31            192.168.202.115
 	108           192.168.204.45
  
-==========================================================
-DNS Query_Types
-==========================================================
+
+
+## DNS Query_Types
 Format: # of occurence (Ascending), DNS query type
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition /maccdc2012_00006.pcap @ http://bit.ly/2maxlsD
@@ -328,9 +310,9 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	99            AXFR
  
  
-==========================================================
-DNS Odd_Queries
-==========================================================
+
+
+## DNS Odd_Queries
 Format: # of occurence (Ascending), odd DNS query
 </br>
 Results from: Malware Traffic Analysis / 2015-05-08-traffic-analysis-exercise.pcap @ http://bit.ly/2lS8g4L
