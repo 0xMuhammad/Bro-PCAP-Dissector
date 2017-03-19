@@ -325,33 +325,29 @@ Results from: Malware Traffic Analysis / 2015-05-08-traffic-analysis-exercise.pc
 	1             va872g.g90e1h.b8.642b63u.j985a2.v33e.37.pa269cc.e8mfzdgrf7g0.groupprograms.in
 	1             kritischerkonsum.uni-koeln.de
 
-==========================================================
-SMB2 Sessions
-==========================================================
+
+## SMB2 Sessions
 Format: # of sessions (Ascending), client IP, server IP, server port
 
  	494           x.x.x.x    -------> x.x.x.x     :  445/tcp
 	532           x.x.x.x    -------> x.x.x.x     :  445/tcp
  
-==========================================================
-SMB2 Usernames
-==========================================================
+
+## SMB2 Usernames
 Format: # of occurence (Ascending), domain\username
 
 	21            Domain            \          Username1
 	494           Domain            \          Username2
  
-==========================================================
-SMB2 Hostnames
-==========================================================
+
+## SMB2 Hostnames
 Format: # of occurence (Ascending), SMB hostname
 
  	21            ServerABC
 	494           ServerXYZ
  
-==========================================================
-SMB2 File_Actions
-==========================================================
+
+## SMB2 File_Actions
 Format: # of occurence (Ascending), file action
 
 	2             SMB::FILE_WRITE
@@ -359,9 +355,8 @@ Format: # of occurence (Ascending), file action
 	188           SMB::FILE_CLOSE
 	252           SMB::FILE_OPEN
  
-==========================================================
-SMB2 File_Names
-==========================================================
+
+## SMB2 File_Names
 Format: # of occurence (Ascending), SMB file name
 
 	1             ui\SwDRM.dll
@@ -388,9 +383,8 @@ Format: # of occurence (Ascending), SMB file name
 	5             Users\desktop.ini
 	5             Program Files\desktop.ini
  
-==========================================================
-SSH Sessions
-==========================================================
+
+## SSH Sessions
 Format: # of occurence (Ascending), client ip, server ip, server port
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00003.pcap @ http://bit.ly/2maxlsD
@@ -402,9 +396,8 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	1             192.168.202.96   -------> 192.168.25.102   : 22/tcp
 	3             192.168.202.112  -------> 192.168.23.101   : 22/tcp
 	28            192.168.202.110  -------> 192.168.22.253   : 22/tcp
-==========================================================
-SSH Client_Strings
-==========================================================
+
+## SSH Client_Strings
 Format: # of occurence (Ascending), SSH client string
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00007.pcap @ http://bit.ly/2maxlsD
@@ -420,9 +413,8 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
  
  
  
-==========================================================
-SSH Server_Strings
-==========================================================
+
+## SSH Server_Strings
 Format: # of occurence (Ascending), SSH server string
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00003.pcap @ http://bit.ly/2maxlsD
@@ -433,9 +425,8 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	3             SSH-2.0-OpenSSH_5.8p1 Debian-7ubuntu1
 	28            SSH-2.0-OpenSSH_4.5
 
-==========================================================
-SSH Auth_Success
-==========================================================
+
+## SSH Auth_Success
 Format: # of occurence (Ascending), SSH auth_success result (True/False)
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00008.pcap @ http://bit.ly/2maxlsD
@@ -444,9 +435,8 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	73            F
  
 
-==========================================================
-SSL Servers_Names
-==========================================================
+
+## SSL Servers_Names
 Format: # of occurence (Ascending), SSL server name
 </br>
 Results from: Malware Traffic Analysis / 2016-09-20-traffic-analysis-exercise.pcap @ http://bit.ly/2lS8g4L
@@ -458,9 +448,8 @@ Results from: Malware Traffic Analysis / 2016-09-20-traffic-analysis-exercise.pc
 	5             .microsoft.com
 
  
-==========================================================
-SSL Issuers
-==========================================================
+
+## SSL Issuers
 Format: # of occurence (Ascending), SSL issuer
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00003.pcap @ http://bit.ly/2maxlsD
@@ -475,9 +464,8 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 
 
 
-==========================================================
-SSL Validation_Status
-==========================================================
+
+## SSL Validation_Status
 Format: # of occurence (Ascending), SSL cert validation result
 </br>
 Results from: Malware Traffic Analysis / 2015-10-28-traffic-analysis-exercise.pcap @ http://bit.ly/2lS8g4L
@@ -486,27 +474,24 @@ Results from: Malware Traffic Analysis / 2015-10-28-traffic-analysis-exercise.pc
 	16            self signed certificate
  
  
-==========================================================
-RDP Sessions
-==========================================================
+
+## RDP Sessions
 Format: # of sessions (Ascending), client IP, server IP, server port 
 
 	2             x.x.x.x    -------> y.y.y.y     : 3389/tcp
 	5             x.x.x.x    -------> y.y.y.y     : 3389/tcp
 	15            x.x.x.x    -------> y.y.y.y     : 3389/tcp
 
-==========================================================
-RDP Usernames
-==========================================================
+
+## RDP Usernames
 Format: # of occurence (Ascending), domain \ username
 
 	2             Domain\Username
 	20            Domain\Username
 
 
-==========================================================
-IRC session
-==========================================================
+
+## IRC session
 Format: # of occurence (Ascending), client IP, server IP, server port
 </br>
 Results from: Honeynet Project / day1.pcap @ http://bit.ly/2mdPszy
@@ -515,9 +500,8 @@ Results from: Honeynet Project / day1.pcap @ http://bit.ly/2mdPszy
 	12            192.168.100.28   -------> 206.252.192.195  : 6667/tcp
 	192           192.168.100.28   -------> 206.252.192.195  : 5555/tcp
 
-==========================================================
-IRC username
-==========================================================
+
+## IRC username
 Format: # of occurence (Ascending), IRC username
 </br>
 Results from: Google CTF 2016 / irc.pcap @ http://bit.ly/2lO2lgc
@@ -525,9 +509,8 @@ Results from: Google CTF 2016 / irc.pcap @ http://bit.ly/2lO2lgc
 	9             root-poppopret
  
 
-==========================================================
-IRC nick
-==========================================================
+
+## IRC nick
 Format: # of occurence (Ascending), IRC nickname
 </br>
 Results from: Google CTF 2016 / irc.pcap @ http://bit.ly/2lO2lgc
@@ -537,9 +520,8 @@ Results from: Google CTF 2016 / irc.pcap @ http://bit.ly/2lO2lgc
 	3             itsl0wk3y
 
  
-==========================================================
-FTP Sessions
-==========================================================
+
+## FTP Sessions
 Format: # of occurence (Ascending), client IP, Server IP, server port
 </br>
 Results from: Honeynet Project / day1.pcap @ http://bit.ly/2mdPszy
@@ -547,9 +529,8 @@ Results from: Honeynet Project / day1.pcap @ http://bit.ly/2mdPszy
 	4             192.168.100.28   -------> 192.18.99.122    : 21/tcp
 	10            192.168.100.28   -------> 62.211.66.16     : 21/tcp
 
-==========================================================
-FTP Usernames
-==========================================================
+
+## FTP Usernames
 Format: # of occurence (Ascending), FTP username
 </br>
 Results from: Honeynet Project / day1.pcap @ http://bit.ly/2mdPszy
@@ -559,9 +540,8 @@ Results from: Honeynet Project / day1.pcap @ http://bit.ly/2mdPszy
 	10            bobzz
 
  
-==========================================================
-FTP Current_Working_Directories
-==========================================================
+
+## FTP Current_Working_Directories
 Format: # of occurence (Ascending), FTP Current Working Directory
 </br>
 Results from: Honeynet Project / day1.pcap @ http://bit.ly/2mdPszy
@@ -569,9 +549,8 @@ Results from: Honeynet Project / day1.pcap @ http://bit.ly/2mdPszy
 	4             ./pub/patches
 	10            .
 
-==========================================================
-FTP Commands
-==========================================================
+
+## FTP Commands
 Format: # of occurence (Ascending), FTP command
 </br>
 Results from: Honeynet Project / day1.pcap @ http://bit.ly/2mdPszy
@@ -579,9 +558,9 @@ Results from: Honeynet Project / day1.pcap @ http://bit.ly/2mdPszy
 	5             PORT
 	9             RETR
 
-==========================================================
-File MIME_Types
-==========================================================
+
+
+## File MIME_Types
 Format: # of occurence (Ascending), mime type, communication protocol
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00002.pcap @ http://bit.ly/2maxlsD
