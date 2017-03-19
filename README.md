@@ -8,7 +8,7 @@ Bro script to dissect PCAP files in a way that facilitates active threat hunting
 
 Running the script using this command "bro -C -r trace.pcap dissector.bro" produces the following samples (different PCAPs) output
 
-Running the script using this command "bro -C -r trace.pcap dissector.bro" produces the following samples (different PCAPs) output
+
 ==========================================================		
 Bytes Downloaded > {3000000 Bytes / 3 MB}		
 ==========================================================
@@ -27,6 +27,7 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	3476280               192.168.24.100   <-------  192.168.202.110  : 4444/tcp
 
  
+
 ==========================================================
 Bytes Uploaded > {1000000 Bytes / 1 MB}
 ==========================================================
@@ -44,6 +45,7 @@ Results from: ismellpackets/Hidden.pcap @ http://bit.ly/2lSdxt8
 	251404609             192.168.4.5      -------> 23.67.247.112    : 80/tcp
 	8393910               192.168.4.5      -------> 207.171.187.117  : 443/tcp
  
+
 
 
 ==========================================================
