@@ -8,7 +8,7 @@ Bro script to dissect PCAP files in a way that facilitates active threat hunting
 
  
 
-##Bytes Downloaded > {3000000 Bytes / 3 MB} 
+## Bytes Downloaded > {3000000 Bytes / 3 MB} 
 Format: size (Descending), client IP, server IP, server port
 </br>
 Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition / maccdc2012_00001.pcap @ http://bit.ly/2mWr0kx
