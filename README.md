@@ -8,7 +8,6 @@ Bro script to dissect PCAP files in a way that facilitates active threat hunting
 
 Running the script using this command "bro -C -r trace.pcap dissector.bro" produces the following samples (different PCAPs) output
 
-
 ==========================================================		
 Bytes Downloaded > {3000000 Bytes / 3 MB}		
 ==========================================================
