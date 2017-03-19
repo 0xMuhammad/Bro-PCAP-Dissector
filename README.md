@@ -24,7 +24,7 @@ Results from: National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competit
 	3496305               192.168.26.100   <-------  192.168.203.45   : 54344/tcp
 	3476280               192.168.24.100   <-------  192.168.202.110  : 4444/tcp
 
- 
+
 
 ==========================================================
 Bytes Uploaded > {1000000 Bytes / 1 MB}
