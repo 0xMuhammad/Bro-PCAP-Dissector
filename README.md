@@ -6,7 +6,7 @@ Bro script to dissect PCAP traces
 # Bro-PCAP-Dissector
 Bro script to dissect PCAP files in a way that facilitates active threat hunting by employing stack counting techniques. The script accepts PCAP fileas an input, scans the existence of major network protocols (i.e. HTTP,DNS,SMB,RDP,SSH,SSL,FTP and IRC) and produce sorted and counted lists of interesting fields/headers upon the existence of any of the previous protocols.
 
-Running the script using this command "bro -C -r trace.pcap dissector.bro" produces the following samples (different PCAPs) output
+Hunt 1
 ==========================================================		
 Bytes Downloaded > {3000000 Bytes / 3 MB}		
 ==========================================================
